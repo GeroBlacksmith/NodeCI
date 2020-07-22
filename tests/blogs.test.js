@@ -69,7 +69,7 @@ describe("WHen user is not logged in", async () => {
     },
   ];
   test("Blog related actions are prohibited", async () => {
-      const results = await page.execRequest(actions);
+      const results = await page.execRequests(actions);
       for (let result of results){
           expect(result).toEqual({error:'You must log in!'});
       }
