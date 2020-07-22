@@ -8,4 +8,6 @@ module.exports = {
     "mongodb://nodeadvanced:JvF6gNrnwKGhp76@cluster0-shard-00-00.owu5g.mongodb.net:27017,cluster0-shard-00-01.owu5g.mongodb.net:27017,cluster0-shard-00-02.owu5g.mongodb.net:27017/test?ssl=true&replicaSet=atlas-hcv5bk-shard-0&authSource=admin&retryWrites=true&w=majority",
   cookieKey: "123123123",
   redisUrl: "redis://127.0.0.1:6379",
+  accessKeyId: "AKIAXBLZCSB4ZMF6E4O5",
+  secretAccessKey: "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"
 };
